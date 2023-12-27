@@ -11,6 +11,14 @@ public class Coordinates {
     this.y = y;
   }
 
+  public int getX() {
+    return x;
+  }
+
+  public int getY() {
+    return y;
+  }
+
   //helps us to store the coordinates in a hash map
   @Override
   public boolean equals(Object o) {
