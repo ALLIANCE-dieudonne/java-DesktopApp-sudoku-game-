@@ -1,5 +1,6 @@
 package com.alliance.sudokudesktopgame.userInterface.logic;
 
+import com.alliance.sudokudesktopgame.computationLogic.GameLogic;
 import com.alliance.sudokudesktopgame.constants.GameState;
 import com.alliance.sudokudesktopgame.constants.Messages;
 import com.alliance.sudokudesktopgame.problemDomain.IStorage;
@@ -26,7 +27,7 @@ public class ControlLogic implements IUserInterfaceContract.EventListener {
       newGridState[x][y] = input;
 
       gameData = new SudokuGame(
-        GameLogic.checkForCompletion(newGridState),
+        GameLogic.checkForGameCompletion(newGridState),
         newGridState
       );
 
