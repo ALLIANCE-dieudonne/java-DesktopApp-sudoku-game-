@@ -20,10 +20,8 @@ public class SudokuSolver {
         if (GameLogic.sudokuIsInvalid(puzzle)) {
           if (index == 0 && input == GRID_BOUNDARY) {
             return false;
-          } else if (input == GRID_BOUNDARY) {
-            index--;
           }
-          index++;
+            index++;
         } else {
           index++;
 
