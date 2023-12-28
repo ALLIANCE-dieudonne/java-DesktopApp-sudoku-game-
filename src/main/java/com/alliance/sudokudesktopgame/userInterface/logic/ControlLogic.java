@@ -12,9 +12,9 @@ import java.io.IOException;
 public class ControlLogic implements IUserInterfaceContract.EventListener {
 
   private IStorage storage;
-  private IUserInterfaceContract.view view;
+  private IUserInterfaceContract.View view;
 
-  public ControlLogic(IStorage storage, IUserInterfaceContract.view view) {
+  public ControlLogic(IStorage storage, IUserInterfaceContract.View view) {
     this.storage = storage;
     this.view = view;
   }

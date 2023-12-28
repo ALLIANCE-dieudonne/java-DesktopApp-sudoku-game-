@@ -21,7 +21,7 @@ import javafx.stage.Stage;
 
 import java.util.HashMap;
 
-public class UserInterfaceImpl implements IUserInterfaceContract.view,
+public class UserInterfaceImpl implements IUserInterfaceContract.View,
   EventHandler<KeyEvent> {
 
   private final Stage stage;
