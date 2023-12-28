@@ -1,6 +1,7 @@
 package com.alliance.sudokudesktopgame.buildLogic;
 
 import com.alliance.sudokudesktopgame.computationLogic.GameLogic;
+import com.alliance.sudokudesktopgame.persistance.LocalStorageImpl;
 import com.alliance.sudokudesktopgame.problemDomain.IStorage;
 import com.alliance.sudokudesktopgame.problemDomain.SudokuGame;
 import com.alliance.sudokudesktopgame.userInterface.IUserInterfaceContract;
